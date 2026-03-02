@@ -1,8 +1,8 @@
 #!/bin/sh
 # Simple infinite loop script for old UNIX/Bourne sh systems
-# Runs ./plw every 13 seconds and pipes output to espeak
+# Runs ./plw every 55 seconds and pipes output to espeak
 
-while sleep  13
+while sleep  55
 do
     ./plw | espeak -a200
 done
